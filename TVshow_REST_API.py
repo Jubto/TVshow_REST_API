@@ -1,4 +1,4 @@
-from flask import Flask, request, send_file, jsonify
+from flask import Flask, request, send_file
 from flask_restx import Resource, Api, reqparse, fields 
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime, timedelta
